@@ -1,7 +1,7 @@
 Name: zlib
 Summary: A general-purpose data compression library
 Authors: Jean-loup Gailly and Mark Adler
-Original version: 1.2.7
+Original version: 1.2.8
 License: zlib
 URL: http://zlib.net/
 
