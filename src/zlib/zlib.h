@@ -1,3 +1,21 @@
+/*
+ * zlib version 1.2.8-optipng, 2013-12-28
+ *
+ * This is an altered version of zlib.
+ * See README.optipng.txt for more information.
+ */
+
+#ifndef OPTIPNG_CONFIG_ZLIB
+#define OPTIPNG_CONFIG_ZLIB
+
+#define NO_GZCOMPRESS
+#define NO_GZIP
+
+#define TOO_FAR 32768U
+
+#endif /* OPTIPNG_CONFIG_ZLIB */
+
+
 /* zlib.h -- interface of the 'zlib' general purpose compression library
   version 1.2.8, April 28th, 2013
 
@@ -37,8 +55,8 @@
 extern "C" {
 #endif
 
-#define ZLIB_VERSION "1.2.8"
-#define ZLIB_VERNUM 0x1280
+#define ZLIB_VERSION "1.2.8-optipng"
+#define ZLIB_VERNUM 0x128f
 #define ZLIB_VER_MAJOR 1
 #define ZLIB_VER_MINOR 2
 #define ZLIB_VER_REVISION 8
