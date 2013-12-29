@@ -19,6 +19,7 @@
  */
 
 #include "opngreduc.h"
+#include <string.h>
 
 #ifndef OPNG_ASSERT
 #include <assert.h>

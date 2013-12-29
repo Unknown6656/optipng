@@ -7,7 +7,7 @@
  */
 
 #include "pngxutil.h"
-
+#include <string.h>
 
 #ifdef PNG_INFO_IMAGE_SUPPORTED
 
